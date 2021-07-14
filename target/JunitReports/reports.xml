@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="19.51">
+    <testcase classname="Feature to test Google search functionality" name="Validate that Google search is working" time="7.731">
+        <system-out><![CDATA[Given browser is open.......................................................passed
+And User is on google search page...........................................passed
+When user enters a text in search box.......................................passed
+And hits enter..............................................................passed
+Then user is navigated to search results....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login function functionality" name="Check login is successful with valid credentials" time="4.959">
+        <system-out><![CDATA[Given User has launched the browser.........................................passed
+And User opens the website..................................................passed
+When user enters abc and 12345..............................................passed
+And user clicks on login button.............................................passed
+Then user is navigated to home page.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login function functionality" name="Check login is successful with valid credentials 2" time="6.646">
+        <system-out><![CDATA[Given User has launched the browser.........................................passed
+And User opens the website..................................................passed
+When user enters xyz and 12345..............................................passed
+And user clicks on login button.............................................passed
+Then user is navigated to home page.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

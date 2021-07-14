@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-08T09:43:36.176Z",
+        "line": 3,
+        "name": "Validate that Google search is working",
+        "description": "",
+        "id": "feature-to-test-google-search-functionality;validate-that-google-search-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1917455100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchSteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3689220600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on google search page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchSteps.user_is_on_google_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114366700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters a text in search box",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchSteps.user_enters_a_text_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1903199800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "hits enter",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchSteps.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10970700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to search results",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchSteps.user_is_navigated_to_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test Google search functionality",
+    "description": "",
+    "id": "feature-to-test-google-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/GoogleSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-08T09:43:43.925Z",
+        "line": 11,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-function-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1511657800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has launched the browser",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.user_has_launched_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3247747500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the website",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.user_opens_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140811000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters abc and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.LoginDemoSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48870000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-08T09:43:48.892Z",
+        "line": 12,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-function-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1752799000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has launched the browser",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.user_has_launched_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4683709900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the website",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.user_opens_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145611400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters xyz and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.LoginDemoSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59842400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepdefinitions.LoginDemoSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test login function functionality",
+    "description": "",
+    "id": "test-login-function-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginDemo.feature",
+    "tags": []
+  }
+]
